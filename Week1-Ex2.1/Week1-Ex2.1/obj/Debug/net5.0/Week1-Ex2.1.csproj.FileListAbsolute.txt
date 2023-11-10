@@ -1,0 +1,15 @@
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\bin\Debug\net5.0\Week1-Ex2.1.exe
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\bin\Debug\net5.0\Week1-Ex2.1.deps.json
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\bin\Debug\net5.0\Week1-Ex2.1.runtimeconfig.json
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\bin\Debug\net5.0\Week1-Ex2.1.runtimeconfig.dev.json
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\bin\Debug\net5.0\Week1-Ex2.1.dll
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\bin\Debug\net5.0\Week1-Ex2.1.pdb
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\Week1-Ex2.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\Week1-Ex2.1.AssemblyInfoInputs.cache
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\Week1-Ex2.1.AssemblyInfo.cs
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\Week1-Ex2.1.csproj.CoreCompileInputs.cache
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\Week1-Ex2.1.dll
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\refint\Week1-Ex2.1.dll
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\Week1-Ex2.1.pdb
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\Week1-Ex2.1.genruntimeconfig.cache
+C:\Facultate\Internship\Week1-Ex2.1\Week1-Ex2.1\obj\Debug\net5.0\ref\Week1-Ex2.1.dll
