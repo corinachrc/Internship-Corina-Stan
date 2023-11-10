@@ -23,12 +23,12 @@ namespace Week1_Ex1._7
             curs1.Profesor = prof1;
             curs1.AdaugaStudent(student1);
             curs1.AdaugaStudent(student2,student3,student4);
-            curs1.AfiseazaDetaliiCurs();
+            curs1.AfiseazaDetalii();
 
             curs1.ModificaNota(student2, 10);
             curs1.ModificaNota(student1 , 10);
             curs1.ModificaNota(student4, 8);
-            curs1.AfiseazaDetaliiCurs();
+            curs1.AfiseazaDetalii();
 
             Console.WriteLine(student1);
 

@@ -62,7 +62,7 @@ namespace Week1_Ex1._7
             return nota;
         }
 
-        public void AfiseazaDetaliiCurs()
+        public void AfiseazaDetalii()
         {
             Console.WriteLine("Denumire curs: "+DenumireCurs+"\t "+NumarLocuri+" locuri");
             Console.WriteLine("---------------------------------------------------------");
