@@ -1,0 +1,44 @@
+<div class="container">
+  <nav class="navbar fixed-top navbar-dark bg-primary justify-content-end">
+    <span class="navbar-text ml-0">Hello {{username}},</span>
+    <button *ngIf="this.isAdmin" class="btn btn-info" (click)="onAddMovie()">Add Movie</button>
+
+
+    <button class="btn btn-info" (click)="onLogOut()">Logout</button>
+
+  </nav>
+
+  <div class="row">
+    <div *ngFor="let movie of movies, index as i" class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img [src]="movie.Poster" alt="{{ movie.Title }} Poster">
+            <div class="card-body">
+              <p class="card-text"><i class="fa fa-star checked"></i> {{ movie.AverageRating | number: '1.0-2'}}
+                ({{movie.Rating.length}} votes)</p>
+              <h5 class="card-title">{{ movie.Title }}</h5>
+              <p class="card-text"><strong>Year:</strong> {{ movie.Year }}</p>
+              <p class="card-text"><strong>Runtime:</strong> {{ movie.Runtime }}</p>
+
+            </div>
+          </div>
+
+          <div class="flip-card-back">
+            <p class="card-text"><strong>Genre:</strong> {{ movie.Genre }}</p>
+            <p class="card-text"><strong>Actors:</strong> {{ movie.Actors }}</p>
+            <p class="card-text"><strong>Plot:</strong> {{ movie.Plot }}</p>
+          </div>
+        </div>
+
+      </div>
+      <button class="btn btn-info" *ngIf="movie.isVoting==false&&isAdmin==false" (click)="onVote(movie)"><b>Vote</b> <i  class="fa fa-star checked"></i></button>
+      <div *ngIf="movie.isVoting==true">
+        <app-star-rating></app-star-rating>
+        <button class="btn btn-info" (click)="onSavingVote(movie)"> Save</button>
+      </div>
+      <button *ngIf="this.isAdmin" class="btn btn-info" (click)="onRemoveMovie(movie)">Remove</button>
+    </div>
+  </div>
+
+</div>

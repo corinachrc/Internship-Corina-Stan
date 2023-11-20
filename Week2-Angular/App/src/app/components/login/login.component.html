@@ -1,0 +1,23 @@
+
+<div class="container" >
+  <div class="box btn btn-primary mb-3" >
+  <h1 class="text-center">Please login to get access.</h1>
+  <form [formGroup]="signInForm" (ngSubmit)="onSignIn()">
+    <div *ngIf="!isValid" class="alert alert-danger">Invalid username and/or password!</div>
+    <div class="form-group">
+      <label for="username" class="float-start"><b>Username</b></label>
+      <input type="text" class="form-control" id="username" formControlName="username">
+
+    </div>
+    <div class="form-group">
+      <label for="password" class="float-start"><b>Password</b></label>
+      <input type="password" class="form-control" id="password" formControlName="password">
+    </div>
+    <button type="submit" class="btn btn-info float-end"><b>Sign In</b></button>
+  </form>
+</div>
+
+
+</div>
+
+

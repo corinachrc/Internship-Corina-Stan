@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="btn btn-primary">
+  <form [formGroup]="addMovieForm" (ngSubmit)="addMovie()">
+    <div class="form-group m-2">
+      <label for="title" class="float-start text-light font-weight-bold"><b>Title</b></label>
+      <input type="text" class="form-control" id="title" formControlName="title">
+
+    </div>
+
+    <div class="form-group m-2">
+      <label for="year" class="float-start font-weight-bold"><b>Year</b></label>
+      <input type="text" class="form-control" id="year" formControlName="year">
+
+    </div>
+    <div class="form-group m-2">
+      <label for="runtime" class="float-start font-weight-bold"><b>Runtime</b></label>
+      <input type="text" class="form-control" id="runtime" formControlName="runtime">
+    </div>
+
+    <div class="form-group m-2">
+      <label for="genre" class="float-start font-weight-bold"><b>Genre</b></label>
+      <input type="text" class="form-control" id="genre" formControlName="genre">
+
+    </div>
+    <div class="form-group m-2">
+      <label for="actors" class="float-start font-weight-bold"><b>Actors</b></label>
+      <input type="text" class="form-control" id="actors" formControlName="actors">
+
+    </div>
+    <div class="form-group m-2">
+      <label for="plot" class="float-start font-weight-bold"><b>Plot</b></label>
+      <input type="text" class="form-control" id="plot" formControlName="plot">
+
+    </div>
+    <div class="form-group m-2">
+      <label for="poster" class="float-start font-weight-bold"><b>Poster</b></label>
+      <input type="text" class="form-control" id="poster" formControlName="poster">
+
+    </div>
+    <div class="form-group m-2">
+      <label for="rating" class="float-start font-weight-bold"><b>Rating</b></label>
+      <input type="number" class="form-control" id="rating" formControlName="rating">
+
+    </div>
+
+
+    <button type="submit" class="btn btn-info float-end  m-2" >Add Movie</button>
+  </form>
+</div>
+</div>

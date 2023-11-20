@@ -1,0 +1,12 @@
+.container{
+  margin: auto;
+  text-align: center;
+  margin-top:50px;
+}
+.box{
+  margin: auto;
+}
+.form-group{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
